@@ -1,17 +1,17 @@
-import React from 'react';
-import Header from './components/Header/Header'
-import Demo from './components/Demo.js'
+import React from "react";
+import Header from "./components/Header/Header";
+import Blocks from "./components/Blocks/Blocks.js";
 
-// https://github.com/pmndrs/react-three-fiber 
+// https://github.com/pmndrs/react-three-fiber
 
-import './App.css';
+import "./App.css";
 
 function App() {
   return (
     <div className="App">
       <Header />
-      <div className='blocks'>
-      <Demo />
+      <div className="blocksStyle">
+        <Blocks />
       </div>
     </div>
   );

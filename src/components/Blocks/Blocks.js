@@ -9,7 +9,7 @@ function Box(props) {
   const [active, setActive] = useState(false)
   // Rotate mesh every frame, this is outside of React without overhead
   useFrame(() => {
-    mesh.current.rotation.x = mesh.current.rotation.y += 0.1
+    mesh.current.rotation.x  = mesh.current.rotation.y += 0.02
   })
   return (
     <mesh
@@ -31,8 +31,9 @@ export default function App() {
       <ambientLight intensity={0.5} />
       <spotLight position={[10, 10, 10]} angle={0.15} penumbra={1} />
       <pointLight position={[-10, -10, -10]} />
-      <Box position={[-1.2, 0, 0]} />
-      <Box position={[1.2, 0, 0]} />
+      <Box position={[-2, 0, 0]} />
+      <Box position={[2, 0, 0]} />
+      <Box position={[0, 0, 0]} />
     </Canvas>
   )
 }
