@@ -10,7 +10,7 @@ import Controller from "./components/Controller/Controller";
 export default function App() {
   return (
     <div>
-      <Header />
+      {/* <Header />  */}
 
       <div className="screen">
         <Object3D />
