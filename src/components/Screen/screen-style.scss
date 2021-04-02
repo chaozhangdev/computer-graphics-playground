@@ -1,0 +1,18 @@
+.screen-container {
+  width: 100%;
+  display: flex;
+  color: #fff;
+  flex-direction: row;
+}
+
+.left-section {
+  background-color: black;
+  width: 50%;
+  height: 90vh;
+}
+
+.right-section {
+  background-color: red;
+  width: 50%;
+  height: 90vh;
+}
