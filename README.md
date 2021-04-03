@@ -1,6 +1,6 @@
-## Computer Graphics 
+## Computer Graphics Playground
 
-(https://media.giphy.com/media/7mflYXExK0QsYjVMhO/giphy.gif)
+<img src="https://media.giphy.com/media/7mflYXExK0QsYjVMhO/giphy.gif" />
 
 ### UI Library:
 https://material-ui.com/
